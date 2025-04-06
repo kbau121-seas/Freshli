@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <link rel="stylesheet" href="default.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="section">Freshli</div>
+
+            <div class="section">
+                <button class="option">
+                    <div>
+                        <p class="name">Milk (24 oz)</p>
+                        <p class="expiration">Exp 2/2/25</p>
+                    </div>
+                    <img src="angle.svg" style="transform: rotate(90deg); width:2.5em; align-self: center;">
+                </button>
+
+                <button class="option">Lemon</button>
+                <button class="option">Chicken Breast</button>
+                <button class="option">+</button>
+            </div>
+
+            <div class="section" id="generation">
+                <button>Recipes</button>
+                <button id="filters"><img src="filters.svg"></button>
+            </div>
+        </div>
+    </body>
+</html>

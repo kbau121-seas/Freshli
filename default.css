@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #FBFAF8;
+    margin: 0;
+}
+
+.name {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    margin:0;
+    justify-self: left;
+}
+
+.expiration {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20;
+    color: #FBFAF8;
+
+    margin:0;
+    justify-self: left;
+}
+
+button {
+    width: 100%;
+}
+
+div.container {
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+}
+
+div.container > div {
+    margin: 1em 0 0 0;
+    padding: 1em;
+}
+
+div.section {
+    display: flex;
+    flex-flow: column;
+    width: 30em;
+    margin: auto;
+    background-color: #FAF1E6;
+    border-radius: 0.5em;
+}
+
+button.option {
+    display: grid;
+    grid-template-columns: auto max-content;
+
+    background-color: #F9D3A6;
+    border: 0;
+    border-radius: 0.5em;
+}
+
+#generation {
+    flex-flow: row;
+}
+
+#filters {
+    width: 5em;
+}
