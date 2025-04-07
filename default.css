@@ -1,43 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Underdog&display=swap');
 
 body {
     background-color: #FBFAF8;
-    margin: 0;
-}
-
-.name {
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-size: 24;
-    color: #FBFAF8;
-
-    margin:0;
-    justify-self: left;
-}
-
-.expiration {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 20;
-    color: #FBFAF8;
-
-    margin:0;
-    justify-self: left;
+    margin: 1em;
 }
 
 button {
-    width: 100%;
+    cursor:pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 div.container {
     display: flex;
     flex-flow: column;
     justify-self: center;
-}
-
-div.container > div {
-    margin: 1em 0 0 0;
-    padding: 1em;
+    gap: 1em;
+    height: 100%;
 }
 
 div.section {
@@ -47,21 +29,32 @@ div.section {
     margin: auto;
     background-color: #FAF1E6;
     border-radius: 0.5em;
+    padding: 1em;
+    gap: 1em;
 }
 
-button.option {
-    display: grid;
-    grid-template-columns: auto max-content;
-
-    background-color: #F9D3A6;
+button.image {
     border: 0;
-    border-radius: 0.5em;
+    background-color: transparent;
+    margin: auto;
 }
 
-#generation {
-    flex-flow: row;
+#logo {
+    font-family: chilanka;
+    font-size: 75pt;
+    color: #E78E22;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    align-self: center;
+    margin-bottom: -0.3em;
 }
 
-#filters {
-    width: 5em;
+#header {
+    font-family: rubik;
+    font-size: 40pt;
+    font-weight: 450;
+    padding: 0;
+    margin: 0;
+    align-self: center;
 }

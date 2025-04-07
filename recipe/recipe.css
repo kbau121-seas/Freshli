@@ -1,0 +1,96 @@
+h3 {
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+p, ol, ul {
+    font-family: "Open Sans";
+}
+
+ol, ul {
+    padding: 1em;
+}
+
+#header {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#back {
+    background-color: #7FB38D;
+
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    border: 0;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em;
+}
+
+#generation {
+    display: grid;
+    grid-template-columns: auto max-content;
+}
+
+#recipe {
+    height: 100%;
+}
+
+#recipe-display {
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.angle-right {
+    transform: rotate(90deg);
+    width: 2.5em;
+    align-self: center;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: auto max-content;
+
+    background-color: #F9D3A6;
+    border: 0;
+    border-radius: 0.5em;
+
+    height: 5em;
+    align-content: center;
+    padding: 2em 1em 2em 2em;
+}
+
+button {
+    width: 100%;
+}
+
+.name {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    margin:0;
+    justify-self: left;
+}
+
+.expiration {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20;
+    color: #FBFAF8;
+
+    margin:0;
+    justify-self: left;
+}

@@ -4,29 +4,22 @@
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
+        <script type="text/babel" src="index/index.js"></script>
+
         <link rel="stylesheet" href="default.css" />
+        <link rel="stylesheet" href="index/index.css" />
     </head>
     <body>
         <div class="container">
-            <div class="section">Freshli</div>
-
             <div class="section">
-                <button class="option">
-                    <div>
-                        <p class="name">Milk (24 oz)</p>
-                        <p class="expiration">Exp 2/2/25</p>
-                    </div>
-                    <img src="angle.svg" style="transform: rotate(90deg); width:2.5em; align-self: center;">
-                </button>
-
-                <button class="option">Lemon</button>
-                <button class="option">Chicken Breast</button>
-                <button class="option">+</button>
+                <h1 id="logo">Freshli</h1>
             </div>
 
+            <div class="section" id="inventory" style="overflow: hidden;"></div>
+
             <div class="section" id="generation">
-                <button>Recipes</button>
-                <button id="filters"><img src="filters.svg"></button>
+                <a href="recipes/recipes.html"><button id="generate">Recipes</button></a>
+                <a href="filters/filters.html"><button class="image" id="filters"><img src="icons/filters.svg"></button></a>
             </div>
         </div>
     </body>

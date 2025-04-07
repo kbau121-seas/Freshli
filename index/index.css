@@ -1,0 +1,82 @@
+#add-new {
+    align-self: center;
+}
+
+#generate {
+    background-color: #7FB38D;
+
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    border: 0;
+    border-radius: 0.5em;
+    height: 3em;
+}
+
+#add {
+    width: 4em;
+    margin: 0 auto 0 auto;
+}
+
+#generation {
+    display: grid;
+    grid-template-columns: auto max-content;
+}
+
+#filters {
+    width: 6em;
+    height: 100%
+}
+
+#inventory {
+    height: 100%;
+}
+
+#inventory-display {
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.angle-right {
+    transform: rotate(90deg);
+    width: 2.5em;
+    align-self: center;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: auto max-content;
+
+    background-color: #F9D3A6;
+    border: 0;
+    border-radius: 0.5em;
+}
+
+button {
+    width: 100%;
+}
+
+.name {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    margin:0;
+    justify-self: left;
+}
+
+.expiration {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20;
+    color: #FBFAF8;
+
+    margin:0;
+    justify-self: left;
+}

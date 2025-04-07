@@ -1,0 +1,97 @@
+p {
+    margin: 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20;
+}
+
+input {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 35;
+    width: 100%;
+}
+
+a {
+    align-self: center;
+}
+
+.action {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    border: 0;
+    border-radius: 0.5em;
+
+    height: 2.5em;
+    width: 10em;
+
+    align-self: center;
+}
+
+#save {
+    background-color: #7FB38D;
+}
+
+#filters {
+    height: fit-content;
+}
+
+#filters-display {
+    height: fit-content;
+    display: grid;
+
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+div.container {
+    height: fit-content;
+}
+
+div.input {
+    display: flex;
+    flex-flow: column;
+}
+
+#cuisine {
+    grid-column: 1 / span 2;
+}
+
+#actions-display
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#diets
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding-left: 1.5em;
+    grid-column: 1 / span 2;
+    width: max-content;
+}
+
+.checkbox {
+    height: 3em;
+}
+
+.diet {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.diet-label
+{
+    font-weight: 600;
+    font-size: 24;
+}

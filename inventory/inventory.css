@@ -1,0 +1,76 @@
+p {
+    margin: 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20;
+}
+
+input {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 35;
+    width: 100%;
+}
+
+a {
+    align-self: center;
+}
+
+.action {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 24;
+    color: #FBFAF8;
+
+    border: 0;
+    border-radius: 0.5em;
+
+    height: 2.5em;
+    width: 10em;
+
+    align-self: center;
+}
+
+#add {
+    background-color: #7FB38D;
+}
+
+#delete {
+    background-color: #B37F80;
+}
+
+#settings {
+    height: fit-content;
+}
+
+#settings-display {
+    height: fit-content;
+    display: grid;
+
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+div.container {
+    height: fit-content;
+}
+
+div.input {
+    display: flex;
+    flex-flow: column;
+}
+
+#name {
+    grid-column: 1 / span 2;
+}
+
+#expiration {
+    grid-column: 1 / span 2;
+}
+
+#actions-display
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
