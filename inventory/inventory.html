@@ -3,6 +3,13 @@
         <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://unpkg.com/html5-qrcode"></script>
+
+        
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            sessionStorage.setItem("scanner_variant", params.get("variant") || "B");
+        </script>
 
         <script type="text/babel" src="inventory.js"></script>
 
@@ -19,6 +26,11 @@
             <div class="section" id="settings"></div>
 
             <div class="section" id="actions"></div>
+
+  
+            <div class="section" id="scanner-section" style="display: none;">
+                <div id="scanner" style="width: 300px; margin: auto;"></div>
+            </div>
         </div>
     </body>
 </html>

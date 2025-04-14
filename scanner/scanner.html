@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Item</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script defer src="scanner.js"></script>
+    <link rel="stylesheet" href="../default.css" />
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        #scanner {
+            width: 300px;
+            margin: 2em auto;
+        }
+        #back-button {
+            margin: 1em auto;
+            display: block;
+            padding: 0.6em 1.2em;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #ccc;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="back-button">Back</button>
+    <div id="scanner"></div>
+</body>
+</html>
